@@ -4,6 +4,13 @@
   max-width: 1920px;
 }
 
+/* ------------------------------------------------ zero row margin padding ------------------------- */
+.row-zero-margin-padding {
+  margin: 0;
+  padding: 0;
+}
+/* ------------------------------------------------------------------- end - zero row margin padding  */
+
 /* ------------------------------------------------ navbar -------------------------------------------*/
 
 .nav-item {
@@ -39,13 +46,18 @@ a.nav-link {
   background: linear-gradient(
       rgba(229, 128, 101, 0),
       rgba(99, 141, 151, 0.76),
-      rgba(25, 163, 163, 0.76)
+      rgba(77, 208, 225, 1)
     ),
     transparent url(../images/anondolok1.jpg) center center/cover no-repeat
       scroll;
   padding-top: 100px;
   padding-bottom: 220px;
   background-repeat: no-repeat;
+}
+
+.cover-text {
+  display: block;
+  margin: auto;
 }
 
 .cover-text-1 {
@@ -94,6 +106,53 @@ a.nav-link {
   margin-top: -4px;
   border-radius: 0%;
   height: 42.5px;
+  font-family: "Poppins";
 }
 
 /* ------------------- end- cover form */
+
+/* --------------------------------------------------------------------------- end - cover section */
+
+/* ------------------------------------ featured-books -------------------------------------------*/
+
+.featured-books {
+  background-image: url(../images/background-featured-books.png);
+  padding: 70px 0;
+  color: #ffffff;
+}
+
+.featured-books-text {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 59px;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------- end - featured-books -----*/
+
+/* ------------------------------------------- book set ---------------------------------------- */
+.book-set {
+  background-image: url(../images/book-seat.jpg);
+  /* height: 100px; */
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.book-seat-text {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 50px;
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+.book-set-input {
+  display: block;
+  margin: auto;
+}
+
+/* ----------------------------------------------------------------------- end - book set ------ */
