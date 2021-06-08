@@ -156,3 +156,34 @@ a.nav-link {
 }
 
 /* ----------------------------------------------------------------------- end - book set ------ */
+
+/* --------------------------------------- footer ---------------------------------------------- */
+
+.footer {
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+ul.footer-ul li {
+  list-style: none;
+}
+
+ul.footer-ul li a {
+  text-decoration: none;
+  color: #a4a4a4;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+/* -------------------------------------------------------------------------------- end - footer */
+
+/* ---------------------------------------- page copyright ------------------------------------- */
+.copyright {
+  text-align: center;
+  color: #a4a4a4;
+}
+/* --------------------------------------------------------------------- end - page copyright -- */
