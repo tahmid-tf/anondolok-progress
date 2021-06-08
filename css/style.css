@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+}
+
+/* ------------------------------------------------ navbar -------------------------------------------*/
+
+.nav-item {
+  padding: 0px;
+}
+
+a.navbar-brand {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  /* font color is with the nav-bar brand */
+}
+
+a.nav-link {
+  font-size: 16px;
+  /* font color is with the nav-bar link */
+}
+
+/* ------------------------------- navbar toggler icon ------------------ */
+
+/* .navbar-light .navbar-toggler-icon {
+  background-image: url(../images/image.png);
+} */
+
+/* --------------------------------------------end - navbar toggler icon  */
+
+/* --------------------------------------------------------------------------------------end - navbar */
+
+/* -------------------------------- cover section ---------------------------------------------------- */
+
+.cover-section {
+  background: linear-gradient(
+      rgba(229, 128, 101, 0),
+      rgba(99, 141, 151, 0.76),
+      rgba(25, 163, 163, 0.76)
+    ),
+    transparent url(../images/anondolok1.jpg) center center/cover no-repeat
+      scroll;
+  padding-top: 100px;
+  padding-bottom: 220px;
+  background-repeat: no-repeat;
+}
+
+.cover-text-1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 113px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cover-text-2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 113px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: -50px;
+  color: #ffffff;
+}
+
+/* ----------- cover form -------------- */
+
+.cover-input {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cover-input-search {
+  width: 500px;
+  height: 0px;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.cover-input-submit {
+  margin-left: -6px;
+  margin-top: -4px;
+  border-radius: 0%;
+  height: 42.5px;
+}
+
+/* ------------------- end- cover form */
